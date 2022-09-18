@@ -1,11 +1,11 @@
 <?php
-$day = rand(1, 13);
-switch ($day) {
+$n = rand(1, 13);
+switch ($n) {
     case 1:echo "Учим буквы";
         break;
     case 2:echo "Учим таблицу умножения";
         break;
-    case 3:echo "Середа";
+    case 3:echo "Учим таблицу умножения";
         break;
     case 4:echo "Учим таблицу умножения";
         break;
@@ -25,5 +25,5 @@ switch ($day) {
         break;   
     case 12:echo "Учим таблицу умножения";
         break;                                                                                                          
-    default:echo "Помилка";
+    default:echo "ну ладно;
 }
